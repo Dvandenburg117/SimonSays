@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color:rgb(11, 11, 77);
+}
+
+.titleHeader{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+    color:burlywood;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#blue{
+    background-color: blue;
+}
+
+.btn{
+    border: 10px solid black;
+    border-radius: 25%;
+    outline-width: thick;
+    margin: 2%;
+    min-width: 250px;
+    min-height: 250px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.pressed{
+   border: 20px solid black;
+   opacity: 0.5;
+}
