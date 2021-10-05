@@ -75,7 +75,7 @@ function backgroundAnimation(color){
     $("body").css("background-color",color);
     setTimeout(function(){
         $("body").css("background-color","rgb(11, 11, 77)");
-    } ,100);
+    } ,200);
 }
 
 //handle all game logic here which will be split into 3 cases: 
@@ -99,6 +99,7 @@ function checkGameState(){
     }
     //incorrect answer
     else{
+        playSound("wrong");
         $(".titleHeader").text("Congrats! You made it to level " + level + "! Press any button to try again.");
         backgroundAnimation("red");
         levelTracker = 1;
